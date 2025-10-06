@@ -64,8 +64,8 @@ body {
 
 /* Seção Sobre Mim */
 .profile-pic {
-    width: 120px;
-    height: 120px;
+    width: 300px;
+    height: 300px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
@@ -86,14 +86,19 @@ h2 {
 
 /* Seção de Serviços */
 .service-card {
-    padding: 0;
+    padding: 2rem;
     overflow: hidden;
 }
 
 .service-card img {
     width: 100%;
-    height: auto;
+    height: 450px;
     display: block;
+    object-fit: cover;
+}
+
+.service-img {
+    border-radius: 20px;
 }
 
 .service-card h3 {

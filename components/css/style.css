@@ -1,9 +1,20 @@
-:root {
+/*:root {
     --bg-color: #fdfaf6;
     --card-bg-color: #ffffff;
     --text-color: #5c544b;
     --primary-color: #d3bca7;
     --heading-color: #8c7d6e;
+    --font-heading: 'Cormorant Garamond', serif;
+    --font-body: 'Poppins', sans-serif;
+}
+*/
+
+:root {
+    --bg-color: #ffbfcb;
+    --card-bg-color: #ffdce4; /* Branco para dar mais contraste e leveza */
+    --text-color: #501f2c;    /* Cor mais escura para garantir a legibilidade */
+    --primary-color: #a86f7b;
+    --heading-color: #7c4754;
     --font-heading: 'Cormorant Garamond', serif;
     --font-body: 'Poppins', sans-serif;
 }
@@ -71,11 +82,10 @@ body {
     margin-bottom: 20px;
 }
 
-h2 {
-    font-family: var(--font-heading);
-    color: var(--heading-color);
-    font-size: 1.8rem;
+h1 {
+    font-size: 2rem;
     margin-bottom: 10px;
+    font-weight: 900;
 }
 
 .bio {
@@ -102,8 +112,7 @@ h2 {
 }
 
 .service-card h3 {
-    font-family: var(--font-heading);
-    font-weight: 700;
+    font-weight: 800;
     color: var(--heading-color);
     font-size: 1.5rem;
     margin: 20px;
